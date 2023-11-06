@@ -30,3 +30,12 @@ python3 convert.py \
 ```
 
 After that, tokenizer.model will be generated.
+
+# Convert to gguf
+
+- After generate tokenizer.model, --vocabtype must be bpe.
+```
+python3 convert.py --outtype f16 ~/models/some --vocabtype bpe
+```
+
+outtype can be 'q8_0', or so.

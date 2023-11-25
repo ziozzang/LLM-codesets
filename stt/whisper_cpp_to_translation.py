@@ -1,6 +1,6 @@
 # This code is PoC of Local LLM(translation) + STT (transcription)
 #  - by Jioh L. Jung (ziozzang@gmail.com)
-# Transcript: using whisper.cpp (stream) & whisper.gguf model (large v3)
+# Transcript: using whisper.cpp (stream) & whisper.ggml model (whisper large v3)
 # Translation: Openchat 3.5 or synatra-translation (mistral 7B based) with quantized and runned by llama.cpp
 #
 import subprocess
